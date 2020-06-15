@@ -1,0 +1,131 @@
+#img-wrapper {
+
+}
+
+#navbar {
+    position: fixed; 
+    top: 0;
+    width: 100vw;
+    background-color: #35B17C;
+}
+
+#header-section {
+    margin-top: 60px;    
+    width: cover;
+    height: 90vh;
+    overflow: hidden;  
+    text-align: center;
+    background: url(https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1470&q=80);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 30vh 0;
+}
+
+#header-section h1{
+    font-size: 6vw;
+    text-shadow: 2px 2px gray;
+}
+
+#header-section h4{
+   font-size: 2vw;
+   text-shadow: .5px .5px gray;
+}
+
+.intro-text {
+    color: white;
+    margin-left: 35vw;
+}
+
+
+#about-section {
+    margin-top: 10vh;
+    margin-left: 3vw;
+
+}
+
+#skillset-section {
+    margin-top: 10vh;
+    margin-left: 3vw;
+    
+}
+
+#skillset-row {
+    margin-top: 5vh;
+    text-align: center;
+    
+}
+
+#project-section {
+    margin-top: 10vh;
+    margin-left: 3vw;
+}
+
+.card-deck {
+  margin: 6vh 10vw;
+}
+
+.btn {
+    background-color: #087848;
+    outline-color: #087848;
+} 
+
+#contact-section {
+    background-color: #ebebeb;
+    border-radius: 5px;
+    border: .5px solid lightgray;
+    width: 60vw;
+    margin: 0 auto;
+    padding-bottom: 6vh;
+    margin-top: 20vh;
+}
+
+#contact-section h3{
+    text-align: center;
+}
+
+#contact-flexbox {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+#submit-button {
+    margin: 0 auto;
+    margin-top: 2vh;
+}
+
+.contact-item {
+    width: 50vw; 
+    border: .8px solid lightgray;
+    border-radius: 5px;
+    padding: 1vh;
+    margin: 1vh;
+}
+
+
+#submit-button {
+    width: 100px;
+}
+
+
+#footer-section {
+    margin-top: 10vh;
+    margin-left: 3vw;
+}
+
+h3 {
+    margin-top: 12vh;
+    margin-bottom: 8vh;
+}
+
+i {
+    color: #087848;
+    font-size: 4vw;
+}
+
+body {
+    
+}
