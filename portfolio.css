@@ -7,6 +7,7 @@
     top: 0;
     width: 100vw;
     background-color: #35B17C;
+    z-index: 1000;
 }
 
 #header-section {
@@ -15,22 +16,64 @@
     height: 90vh;
     overflow: hidden;  
     text-align: center;
-    background: url(https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1470&q=80);
+    /* background-image: 
+    linear-gradient(
+            rgba(0, 0, 0, .04),
+            rgba(0, 0, 0, .04)
+        ),
+        url(https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1470&q=80);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: cover;  */
     padding: 30vh 0;
+
+    /* position: absolute; */
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:2;
+    background-color: linear-gradient(rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1)); */
+    /* background-attachment: fixed; */
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    
+   
 }
 
+
 #header-section h1{
-    font-size: 6vw;
+    font-size: 7vw;
     text-shadow: 2px 2px gray;
+    position: relative;
+    z-index: 3;
 }
 
 #header-section h4{
    font-size: 2vw;
    text-shadow: .5px .5px gray;
+   color: #1b4734;
+   position: relative;
+    z-index: 3;
+   
 }
+#header-i {
+    line-height: 65px;
+    font-size: 5vh;
+    transition: all .2s ease-in-out;
+    position: relative;
+    z-index: 2;
+}
+
+#header-i:hover {
+    transform: scale(1.1);
+}
+
+
+
 
 .intro-text {
     color: white;
@@ -39,49 +82,66 @@
 
 
 #about-section {
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-left: 3vw;
 
 }
 
 #skillset-section {
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-left: 3vw;
     
 }
 
 #skillset-row {
-    margin-top: 5vh;
+    margin-top: 8vh;
     text-align: center;
+    
     
 }
 
 #project-section {
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-left: 3vw;
+    
 }
 
 .card-deck {
-  margin: 6vh 10vw;
+  margin: 10vh 10vw;
+}
+
+.card {
+    transition: all .2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .btn {
     background-color: #087848;
     outline-color: #087848;
+   
 } 
 
+
 #contact-section {
-    background-color: #ebebeb;
+    background-color: 
+    #ebebeb;
     border-radius: 5px;
     border: .5px solid lightgray;
     width: 60vw;
     margin: 0 auto;
+   
     padding-bottom: 6vh;
     margin-top: 20vh;
+    z-index: 3;
+    position: relative;
 }
 
 #contact-section h3{
     text-align: center;
+    
 }
 
 #contact-flexbox {
@@ -103,6 +163,9 @@
     border-radius: 5px;
     padding: 1vh;
     margin: 1vh;
+}
+.contact-item:hover {
+    transform: scale(1.009);
 }
 
 
@@ -127,5 +190,21 @@ i {
 }
 
 body {
-    
+    font-family: 'portFont'; 
 }
+
+@font-face { 
+    font-family: 'portFont';
+    src: url('portfolioFont/Questrial-Regular.ttf');
+    src: url('portfolioFont/Questrial-Regular.ttf');
+    src: url('portfolioFont/Questrial-Regular.ttf');
+}
+
+.darken {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        )
+}
+        
